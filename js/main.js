@@ -18,7 +18,7 @@ btnRegister.addEventListener("click", () => {
     let uri = 'http://localhost:8080/api/auth/register';
     fetch(uri, {
         method: 'POST',
-        body: JSON.stringify(userDto),
+        body: JSON.stringify(userDto), 
         headers:headers
     });
 });
